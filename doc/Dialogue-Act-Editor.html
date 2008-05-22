@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>Dialogue Act Editor</title>
+
+
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="title" content="Dialog Act Editor Project">
+	<meta name="author" content="Jiří Zahradil, http://zahradil.info">
+	<meta name="description" content="Editor for annotating written dialogus stored in XML format using so-called Dialogue acts or Dialogue moves.">
+	<meta name="robots" content="all">
+
+	<link rel="home" title="Home" href="http://ui.zcu.cz/projects/dae/">
+	<link rel="stylesheet" type="text/css" href="Dialogue%20Act%20Editor_files/main.css" media="screen">
+	<script src="Dialogue%20Act%20Editor_files/nice-table.js"></script></head><body>
+<div id="wrap-out"> 
+  <div id="wrap-in">   
+    <div id="header"> 
+	   <h1>Dialogue Act Editor Project</h1>
+	   <address>CORE development (c) 2005-6 <a href="mailto:filip@kky.zcu.cz">Filip Jurčíček</a>,
+       <a href="mailto:jzahrad@kky.zcu.cz">Jiří Zahradil</a>, <a href="mailto:jelinekl@kky.zcu.cz">Libor Jelínek</a>
+       <br>
+       Signed language support (c) 2006 <a href="mailto:jkanis@kky.zcu.cz">Jakub Kanis</a> (with some core mods)</address>
+    </div>
+      
+    <div id="nav">
+	   <h2>Navigation</h2>
+		<ul>
+			<li><a href="#about">About project</a></li>			
+			<li><a href="#publications">Publications</a></li>			
+			<li><a href="#installation">Installation</a></li>			
+			<li><a href="#license">License</a></li>			
+			<li><a href="#download">Download</a></li>			
+			<li><a href="#documentation">Documentation</a></li>	
+			<li><a href="#sample">Corpus sample</a></li>
+			<li><a href="#ack">References</a></li>            
+			<li><a href="#faq">FAQ</a></li>			
+		</ul>
+</div>    <div id="content">
+        
+<h2 id="about">About project</h2>
+
+<p>This project is aimed to develop editor, that significantly simplifies
+annotation process of transcribed spoken dialog. Annotation process was
+developed to maximize inter-annotator agreement and annotation reliability.
+Editor helps annotator to speed up annotation process and to correct their
+typos and semantical nonsense in annotations.</p>
+
+<h2 id="publications">Main Publications</h2>
+
+<p class="tucne">a, Jurcicek F., Zahradil J., Jelinek L.: <em>A&nbsp;Human-Human
+Train Timetable Dialogue Corpus</em>, EUROSPEECH 2005, Lisboa, Portugal. <a href="http://ui.zcu.cz/projects.old/dae/download/fj-jz-lj05human.pdf">Download PDF</a></p>
+
+<blockquote>
+	<p style="margin-left: 20px;">This paper describes progress in a development of
+	the human-human dialogue corpus. The corpus contains transcribed
+	user's&nbsp;phone calls to a train timetable information center. The phone
+	calls consist of inquiries regarding their train traveler's&nbsp;plans. The
+	corpus is based on dialogues's&nbsp;tran­scription of
+	user's&nbsp;inquiries that were previously collected for a train timetable
+	information center. We enriched this transcription by dialogue act tags. The
+	dialogue act tags comprehend abstract semantic annotation. The corpus comprises
+	a recorded speech of both operators and users, orthographic transcription,
+	normalized transcription, normalized transcription with named entities, and
+	dialogue act tags with abstract semantic annotation. A&nbsp;combination of a
+	dialogue act tagset and a abstract semantic annotation is proposed.
+	A&nbsp;technique of dialogue act tagging and abstract semantic annotation is
+	described and used.</p>
+</blockquote>
+
+<p class="tucne">b, Jurcicek F., Zahradil J., Šmídl L.: <em>Prior of the
+Lexical model in the Hidden Vector State Parser</em>, SPECOM 2006,
+St.Petersburg, Russia. <a href="http://ui.zcu.cz/projects.old/dae/download/fj-jz-sl06prior.pdf">Download
+PDF</a></p>
+
+<blockquote>
+	<p style="margin-left: 20px;">This paper describes an implementation of a
+	statistical semantic parser for a closed domain with limited amount of training
+	data. We implemented the hidden vector state model, which we present as a
+	structure discrimination of a flat-concept model. The model was implemented in
+	the graphical modeling toolkit. We introduced into the hidden vector state
+	model a concept insertion penalty as a part of pattern recognition approach. In
+	our model, the linear interpolation was used for both to deal with unseen words
+	(unobserved input events) in training data and to smooth probabilities of the
+	model. We evaluated the implementation of the concept insertion penalty in our
+	model on a closed domain human-human train timetable dialogue corpus. We found
+	that the concept insertion penalty was indispensable in our implementation of
+	the hidden vector state model on the human-human train timetable dialogue
+	corpus. Accuracy of the baseline system was increased from 33.7% to 55.4%.</p>
+</blockquote>
+
+<p class="tucne">c, Jakub Kanis, Jiří Zahradil, Filip Jurčíček, and Luděk
+Müller: <em>Czech-Sign Speech Corpus for Semantic based Machine
+Translation</em>, TSD 2006, Brno, Czech Republic. <a href="http://ui.zcu.cz/projects.old/dae/download/jkjzfjlm-signscorpus.pdf">Download PDF</a></p>
+
+<blockquote>
+	<p style="margin-left: 20px;">This paper describes progress in a development of
+	the human-human dialogue corpus for machine translation of spoken lan- guage.
+	We have chosen a semantically annotated corpus of phone calls to a train
+	timetable information center. The phone calls consist of inquiries regarding
+	their train traveler plans. Corpus dialogue act tags incorporate abstract
+	semantic meaning. We have enriched a part of the corpus with Sign Speech
+	translation and we have proposed methods how to do au- tomatic machine
+	translation from Czech to Sign Speech using semantic annotation contained in
+	the corpus.</p>
+</blockquote>
+
+<p class="tucne">d, Zdeněk Krňoul, Jakub Kanis, Miloš Železný, Luděk
+Müller and Petr Císař: <em>3D Symbol Base Translation and Synthesis of Czech
+Sign Speech</em>, SPECOM 2006, St.Petersburg, Russia. <a href="http://ui.zcu.cz/projects.old/dae/download/zkjk-specom2006.pdf">Download PDF</a></p>
+
+<blockquote>
+	<p style="margin-left: 20px;">This paper presents primary results of translation
+	spoken Czech to Signed Czech and a synthesis of signs by the computer
+	animation. The synthesis of animation employs a symbolic notation. An automatic
+	process of synthesis generates the articulation of hands from this notation. The
+	translation system is built on the statistical ground. For the notation of the
+	new signs, the graphic editor is designed.</p>
+</blockquote>
+
+<p>More publications will be available as we progress.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Editor is developed in Python language, as result, it is truly multiplatform.
+It takes advantage of multiplatform wxWindows windowing toolkit that simplifies
+and enriches GUI of editor.</p>
+
+<p>In general, DAE installation procedury is simple xcopy – just copy all
+files to your disk and change your settings.xml file according to
+documentation.</p>
+
+<p>For your conveniance, we publish <em>exe</em> versions compiled</p>
+
+<p>You needs this software installed before:</p>
+
+<ul>
+	<li><a href="http://www.python.org/">Python 2.4</a></li>
+
+	<li><a href="http://www.wxpython.org/">wxPython</a>, we use 2.6&nbsp;unicode, we
+	recommended to use the latest version</li>
+
+	<li>for Windows, there is an alternative, you can install <a href="https://sourceforge.net/project/showfiles.php?group_id=78018&amp;package_id=79063">PyWin32
+	2.04</a>. This package installs additional packages you might need.</li>
+
+	<li>for compiling to EXE under Windows, install <a href="http://starship.python.net/crew/theller/py2exe/">Py2Exe</a> and use
+	<em>make-exe.bat</em> makefile, included with sources.</li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>You can download full text of <a href="http://ui.zcu.cz/projects.old/dae/license.txt">DAE License</a>.
+Briefly, DAE is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2&nbsp;of the License, or (at your option) any later
+version.</p>
+
+<p>DAE is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A&nbsp;PARTICULAR PURPOSE. See the GNU General Public License for more
+details.</p>
+
+<p>You should have received a copy of the GNU General Public License along with
+this program; if not, write to the Free Software Foundation, Inc.,
+59&nbsp;Temple Place, Suite 330, Boston, MA 02111–1307 USA</p>
+
+<h2 id="download">Download</h2>
+
+<p>DAE is available to download – for your conveniance, we publish also
+compiled <em>exe</em> versions:</p>
+
+<table class="nice">
+	<tbody><tr class="odd">
+		<th>Description</th>
+
+		<th>Type</th>
+
+		<th>Link</th>
+	</tr>
+
+	<tr class="even">
+		<td>Release 1.5, state annotation</td>
+
+		<td>binary exe</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae-1.5.rar">rar v1.5</a></td>
+	</tr>
+
+	<tr class="odd">
+		<td>Release 1.5, state annotation</td>
+
+		<td>source *.py</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae-1.5.src.rar">rar v1.5</a></td>
+	</tr>
+
+	<tr class="even">
+		<td>Release 1.4, signed language annotation support and minor bug fixes</td>
+
+		<td>binary exe</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae-1.4.rar">rar v1.4</a></td>
+	</tr>
+
+	<tr class="odd">
+		<td>Release 1.4, signed language annotation support and minor bug fixes</td>
+
+		<td>source *.py</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae-1.4.src.rar">rar v1.4</a></td>
+	</tr>
+
+	<tr class="even">
+		<td>Release 1.3, seach support, schema changes, better configuration</td>
+
+		<td>binary exe</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae-1.3.zip">zip v1.3</a></td>
+	</tr>
+
+	<tr class="odd">
+		<td>Release 1.2, improved version, changes requested by annotators</td>
+
+		<td>binary exe</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae-1.2.zip">zip v1.2</a></td>
+	</tr>
+
+	<tr class="even">
+		<td>Release 1.2, improved version, changes requested by annotators</td>
+
+		<td>source *.py</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae-1.2.src.zip">zip v1.2</a></td>
+	</tr>
+
+	<tr class="odd">
+		<td>Release 1.1, compiled exe version for Windows, does not need Python
+		installed</td>
+
+		<td>binary</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae+1.1.zip">zip v1.1</a></td>
+	</tr>
+
+	<tr class="even">
+		<td>First release of Dialogue Act Editor, few bugs, compiled exe version</td>
+
+		<td>binary</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/dae+1.0.zip">zip v1.0</a></td>
+	</tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h2 id="sample">Corpus</h2>
+
+<p>Corpus structure is derived from DATE format (XML) – for more
+information please see our EuroSpeech 2005&nbsp;paper. If you have any other
+questions, you can contact us – emails are in the page header.</p>
+
+<table class="nice">
+	<tbody><tr class="odd">
+		<th>Datafile</th>
+
+		<th>Link</th>
+	</tr>
+
+	<tr class="even">
+		<td>Corpus sample – 3&nbsp;dialogs sem.annotated</td>
+
+		<td><a href="http://ui.zcu.cz/projects.old/dae/download/corpus-sample.zip">zip 6kB</a></td>
+	</tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>Documentation is rather short at this moment.</p>
+
+<ol>
+	<li>There is a Czech <a href="http://ui.zcu.cz/projects.old/dae/download/guideToDAA.pdf">annotation manual</a>
+	(280 kB, PDF) for semantic annotation, unfortunately we do not have an English
+	version. Manual can be slightly out-of-date.</li>
+
+	<li>There is also a Czech <a href="http://ui.zcu.cz/projects.old/dae/download/dae-preklad.pdf">translation
+	manual</a> (315 kB, PDF) for people who did translation from Czech to Signed
+	czech. This manual very precisely describes all translation-related
+	features.</li>
+</ol>
+
+<p>Dialog data format is compatible with DATE format (Walker, M., and
+Passonneau, R., <em>DATE: A&nbsp;Dialogue Act Tagging Scheme for Evaluation of
+Spoken Dialogue Systems</em>, IEEE Trans. Speech and Audio Proc.,
+7(6):697--708, 1999.)</p>
+
+<h2 id="ack">References</h2>
+
+<p>The DAE editor is used in these projects:</p>
+
+<ul>
+	<li>MUSSLAP Project – <a href="http://musslap.zcu.cz/cs/o-projektu/">czech
+	version</a>, <a href="http://musslap.zcu.cz/en/about-project/">english
+	version</a></li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+
+<ol>
+	<li><strong>Is it possible to use this software for research purposes?</strong>
+		<p>Yes, of course. You can use this software freely for research purposes.</p>
+	</li>
+
+	<li><strong>Is it possible to use this software comercially?</strong>
+		<p>Yes, but you need special comercial license. Please contact us for
+		details.</p>
+	</li>
+
+	<li><strong>Why there is a „translation“ button in DAE?</strong>
+	Translation function was added for entering signed language translations, we
+	translated our dialogs from <a href="http://ui.zcu.cz/projects.old/dae/download/fj-jz-lj05human.pdf">Train
+	Timetable Corpus</a> to Czech sign and signed language. After all of this
+	translation will be complete, this corpus will be probably the only one sign
+	language dialogue corpus with semantic annotation.</li>
+
+	<li><strong>Why there is no full-size signed language vocabulary in
+	distribution?</strong> We cannot publish this vocabulary because of copyright.
+	You can create your own vocabulary, see the settings.xml file for vocabulary
+	file name.</li>
+</ol>
+
+<!-- generated by Texy! -->    </div>
+    <div id="foot"> 
+	  Links:
+        <a href="http://ui.zcu.cz/" title="Artificial Inteligence Group">AI Group</a> |
+        <a href="http://control.zcu.cz/">Department of Cybernetics</a> |
+        <a href="http://www.fav.zcu.cz/">Faculty of applied sciences</a> |
+        <a href="http://www.zcu.cz/">West Bohemia University</a>
+      <br>
+      Last modification: 2006-11-23 @ 16:35.	</div>
+
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,287 @@
+﻿<?xml version="1.0"  encoding="UTF-8" ?>
+<task comment="" day="27" description="" dialect="native" dialog="CD03~Part1~04-000427-075758-1" gender="male" hour="07" last-change="Thu Aug 18 14:59:34 2005" min="57" modified-by="Filip Jurcicek" month="04" pin="" processing-state="completely-annotated" quality="1" saved-by="Dialog Act Editor 1.0" specification="" system="hhdis-nádraží" transcription_level="?" volume="2" year="2000">
+  <turn number="1" speaker="operator">
+    <utterance length="1.310" speaker="operator">
+      <text type="transcription">
+        informace prosím
+      </text>
+      <text type="normalized">
+        informace prosím
+      </text>
+      <ne_typed_text>
+        informace prosím
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="GREETING" speech_act="opening">
+        informace prosím
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="2" speaker="user">
+    <utterance length="6.090" speaker="user">
+      <text type="transcription">
+        dobrý den prosim vás já bych potře(bov)al spojení ze sušice{st} do brna{st} 'ps' dneska kolem poledne
+      </text>
+      <text type="normalized">
+        dobrý den prosim vás já bych potřeboval spojení ze sušice do brna dneska kolem poledne
+      </text>
+      <ne_typed_text>
+        dobrý den prosim vás já bych potřeboval spojení ze [station]sušice[/station] do [station]brna[/station] dneska kolem poledne
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="GREETING" speech_act="opening">
+        dobrý den
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="DEPARTURE(FROM(STATION), TO(STATION), TIME)" speech_act="request_info">
+        prosim vás já bych potřeboval spojení ze [station]sušice[/station] do [station]brna[/station] dneska kolem poledne
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="3" speaker="operator">
+    <utterance length="6.789" speaker="operator">
+      <text type="transcription">
+        v jedenáct čtyřicet čtyři vyjedete ze sušice{st} | 'ps' dvanáct dvanáct jste v horažďovicích{st}
+      </text>
+      <text type="normalized">
+        v jedenáct čtyřicet čtyři vyjedete ze sušice dvanáct dvanáct jste v horažďovicích
+      </text>
+      <ne_typed_text>
+        v jedenáct čtyřicet čtyři vyjedete ze [station]sušice[/station] dvanáct dvanáct jste v [station]horažďovicích[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME, FROM(STATION), TIME, TO(STATION)" speech_act="present_info">
+        v jedenáct čtyřicet čtyři vyjedete ze [station]sušice[/station] dvanáct dvanáct jste v [station]horažďovicích[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="4" speaker="user">
+    <utterance length="1.164" speaker="user">
+      <text type="transcription">
+        dvanáct dvanáct
+      </text>
+      <text type="normalized">
+        dvanáct dvanáct
+      </text>
+      <ne_typed_text>
+        dvanáct dvanáct
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="TIME" speech_act="implicit_confirmation">
+        dvanáct dvanáct
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="5" speaker="operator">
+    <utterance length="2.997" speaker="operator">
+      <text type="transcription">
+        z horažďovic{st} dvanáct dvacet
+      </text>
+      <text type="normalized">
+        z horažďovic dvanáct dvacet
+      </text>
+      <ne_typed_text>
+        z [station]horažďovic[/station] dvanáct dvacet
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="FROM(STATION), TIME" speech_act="present_info">
+        z [station]horažďovic[/station] dvanáct dvacet
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="6" speaker="user">
+    <utterance length="1.661" speaker="user">
+      <text type="transcription">
+        dvanáct dvacet
+      </text>
+      <text type="normalized">
+        dvanáct dvacet
+      </text>
+      <ne_typed_text>
+        dvanáct dvacet
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="TIME" speech_act="implicit_confirmation">
+        dvanáct dvacet
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="7" speaker="operator">
+    <utterance length="3.467" speaker="operator">
+      <text type="transcription">
+        třináct třicet šest jste tady v plzni{st}
+      </text>
+      <text type="normalized">
+        třináct třicet šest jste tady v plzni
+      </text>
+      <ne_typed_text>
+        třináct třicet šest jste tady v [station]plzni[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME, IN(STATION)" speech_act="present_info">
+        třináct třicet šest jste tady v [station]plzni[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="8" speaker="user">
+    <utterance length="2.523" speaker="user">
+      <text type="transcription">
+        (tři)náct třicet šest plzeň{st}
+      </text>
+      <text type="normalized">
+        třináct třicet šest plzeň
+      </text>
+      <ne_typed_text>
+        třináct třicet šest [station]plzeň[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="TIME, STATION" speech_act="implicit_confirmation">
+        třináct třicet šest [station]plzeň[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="9" speaker="operator">
+    <utterance length="7.370" speaker="operator">
+      <text type="transcription">
+        odsud vám jede rychlík ve čtrnáct deset do prahy{st} | 'ps' | v praze{st} na hlavním nádraži jste v šestnáct nula nula
+      </text>
+      <text type="normalized">
+        odsud vám jede rychlík ve čtrnáct deset do prahy v praze na hlavním nádraži jste v šestnáct nula nula
+      </text>
+      <ne_typed_text>
+        odsud vám jede rychlík ve čtrnáct deset do [station]prahy[/station] v [station]praze[/station] na hlavním nádraži jste v šestnáct nula nula
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="DEPARTURE(TRAIN_TYPE, TIME, TO(STATION))" speech_act="present_info">
+        odsud vám jede rychlík ve čtrnáct deset do [station]prahy[/station]
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="ARRIVAL(TO(STATION), TIME) " speech_act="present_info">
+        v [station]praze[/station] na hlavním nádraži jste v šestnáct nula nula
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="10" speaker="user">
+    <utterance length="0.558" speaker="user">
+      <text type="transcription">
+        ano
+      </text>
+      <text type="normalized">
+        ano
+      </text>
+      <ne_typed_text>
+        ano
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="ACCEPT" speech_act="acknowledgement">
+        ano
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="11" speaker="operator">
+    <utterance length="7.570" speaker="operator">
+      <text type="transcription">
+        z prahy{st} další rychlík šestnáct třicet šest | 'ps' a v brně{st} devatenáct čtyřicet dva
+      </text>
+      <text type="normalized">
+        z prahy další rychlík šestnáct třicet šest a v brně devatenáct čtyřicet dva
+      </text>
+      <ne_typed_text>
+        z [station]prahy[/station] další rychlík šestnáct třicet šest a v [station]brně[/station] devatenáct čtyřicet dva
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="FROM(STATION), TRAIN_TYPE, TIME" speech_act="present_info">
+        z [station]prahy[/station] další rychlík šestnáct třicet šest 
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="IN(STATION), TIME" speech_act="present_info">
+        a v [station]brně[/station] devatenáct čtyřicet dva
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="12" speaker="user">
+    <utterance length="1.697" speaker="user">
+      <text type="transcription">
+        devatenáct čtyrycet dva brno{st}
+      </text>
+      <text type="normalized">
+        devatenáct čtyrycet dva brno
+      </text>
+      <ne_typed_text>
+        devatenáct čtyrycet dva [station]brno[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="TIME, STATION" speech_act="implicit_confirmation">
+        devatenáct čtyrycet dva [station]brno[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="13" speaker="operator">
+    <utterance length="0.897" speaker="operator">
+      <text type="transcription">
+        ano
+      </text>
+      <text type="normalized">
+        ano
+      </text>
+      <ne_typed_text>
+        ano
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="ACCEPT" speech_act="acknowledgement">
+        ano
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="14" speaker="user">
+    <utterance length="1.674" speaker="user">
+      <text type="transcription">
+        ano děkuju moc
+      </text>
+      <text type="normalized">
+        ano děkuju moc
+      </text>
+      <ne_typed_text>
+        ano děkuju moc
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="ACCEPT" speech_act="acknowledgement">
+        ano
+      </dialogue_act>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="thanking">
+        děkuju moc
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="15" speaker="operator">
+    <utterance length="1.674" speaker="operator">
+      <text type="transcription">
+        není zač
+      </text>
+      <text type="normalized">
+        není zač
+      </text>
+      <ne_typed_text>
+        není zač
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="thanking">
+        není zač
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="16" speaker="user">
+    <utterance length="1.035" speaker="user">
+      <text type="transcription">
+        naschle
+      </text>
+      <text type="normalized">
+        naschle
+      </text>
+      <ne_typed_text>
+        naschle
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="closing">
+        naschle
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="17" speaker="operator">
+    <utterance length="1.035" speaker="operator">
+      <text type="transcription">
+        naschle
+      </text>
+      <text type="normalized">
+        naschle
+      </text>
+      <ne_typed_text>
+        naschle
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="closing">
+        naschle
+      </dialogue_act>
+    </utterance>
+  </turn>
+</task>

@@ -1,0 +1,720 @@
+﻿<?xml version="1.0"  encoding="UTF-8" ?>
+<task comment="" day="27" description="" dialect="native" dialog="CD03~Part1~04-000427-080612-1" gender="female" hour="08" last-change="Tue Aug 23 17:13:49 2005" min="06" modified-by="Libor Jelinek" month="04" pin="" processing-state="out-of-topic" quality="3" saved-by="Dialog Act Editor 1.0" specification="" system="hhdis-nádraží" transcription_level="?" volume="1" year="2000">
+  <turn number="1" speaker="operator">
+    <utterance length="1.200" speaker="operator">
+      <text type="transcription">
+        informace prosím
+      </text>
+      <text type="normalized">
+        informace prosím
+      </text>
+      <ne_typed_text>
+        informace prosím
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="GREETING" speech_act="opening">
+        informace prosím
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="2" speaker="user">
+    <utterance length="11.155" speaker="user">
+      <text type="transcription">
+        dobrý den hilianová{jm} plzeň{on} já k vám mám prosbu jakpa(k) jedou vlaky do domažlic{st} z jižního 'lb' 'ps' 'hs' teď ňák tu sobotu neděli a nebo i toho prvního | jes(tl)i je v tom ňákej roz(díl)~
+      </text>
+      <text type="normalized">
+        dobrý den hilianová plzeň já k vám mám prosbu jakpak jedou vlaky do domažlic z jižního teď ňák tu sobotu neděli a nebo i toho prvního jestli je v tom ňákej rozdíl
+      </text>
+      <ne_typed_text>
+        dobrý den [person]hilianová[/person] [area]plzeň[/area] já k vám mám prosbu jakpak jedou vlaky do [station]domažlic[/station] z jižního teď ňák tu sobotu neděli a nebo i toho prvního jestli je v tom ňákej rozdíl
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="GREETING, PERSON, AREA" speech_act="opening">
+        dobrý den [person]hilianová[/person] [area]plzeň[/area]
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="DEPARTURE(TO(STATION), FROM(STATION), TIME)" speech_act="request_info">
+        já k vám mám prosbu jakpak jedou vlaky do [station]domažlic[/station] z jižního teď ňák tu sobotu neděli a nebo i toho prvního
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TIME)" speech_act="request_info">
+        jestli je v tom ňákej rozdíl
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="3" speaker="operator">
+    <utterance length="2.401" speaker="operator">
+      <text type="transcription">
+        dopoledne paní jako chcete jet
+      </text>
+      <text type="normalized">
+        dopoledne paní jako chcete jet
+      </text>
+      <ne_typed_text>
+        dopoledne paní jako chcete jet
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME" speech_act="acknowledgement">
+        dopoledne paní jako chcete jet
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="4" speaker="user">
+    <utterance length="2.401" speaker="user">
+      <text type="transcription">
+        dopoledne tak kolem tý osmý devátý
+      </text>
+      <text type="normalized">
+        dopoledne tak kolem tý osmý devátý
+      </text>
+      <ne_typed_text>
+        dopoledne tak kolem tý osmý devátý
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME" speech_act="present_info">
+        dopoledne tak kolem tý osmý devátý
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="5" speaker="operator">
+    <utterance length="10.837" speaker="operator">
+      <text type="transcription">
+        jinak tam není žádej rozdíl jede to stejně v osum dvacet tři každý den paní | deset padesát sedm každý den | ať je pátek nebo svátek
+      </text>
+      <text type="normalized">
+        jinak tam není žádej rozdíl jede to stejně v osum dvacet tři každý den paní deset padesát sedm každý den ať je pátek nebo svátek
+      </text>
+      <ne_typed_text>
+        jinak tam není žádej rozdíl jede to stejně v osum dvacet tři každý den paní deset padesát sedm každý den ať je pátek nebo svátek
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="REJECT" speech_act="acknowledgement">
+        jinak tam není žádnej rozdíl
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="TIME, TIME" speech_act="present_info">
+        jede to stejně v osum dvacet tři každý den paní deset padesát sedm každý den ať je pátek nebo svátek
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="6" speaker="user">
+    <utterance length="0.720" speaker="user">
+      <text type="transcription">
+        do těch domažli(c)~{st}
+      </text>
+      <text type="normalized">
+        do těch domažlic
+      </text>
+      <ne_typed_text>
+        do těch [station]domažlic[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="TO(STATION)" speech_act="explicit_confirmation">
+        do těch [station]domažlic[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="7" speaker="operator">
+    <utterance length="0.908" speaker="operator">
+      <text type="transcription">
+        ano
+      </text>
+      <text type="normalized">
+        ano
+      </text>
+      <ne_typed_text>
+        ano
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="ACCEPT" speech_act="acknowledgement">
+        ano
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="8" speaker="user">
+    <utterance length="0.908" speaker="user">
+      <text type="transcription">
+        z jižního
+      </text>
+      <text type="normalized">
+        z jižního
+      </text>
+      <ne_typed_text>
+        z jižního
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="FROM(STATION)" speech_act="explicit_confirmation">
+        z jižního
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="9" speaker="operator">
+    <utterance length="1.980" speaker="operator">
+      <text type="transcription">
+        ano to jsou odjezdy z jižního
+      </text>
+      <text type="normalized">
+        ano to jsou odjezdy z jižního
+      </text>
+      <ne_typed_text>
+        ano to jsou odjezdy z jižního
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="ACCEPT(FROM(STATION))" speech_act="explicit_confirmation">
+        ano to jsou odjezdy z jižního
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="10" speaker="user">
+    <utterance length="4.710" speaker="user">
+      <text type="transcription">
+        'mh' ještě k vám mám prosbu | 'lb' do děčína{st} z hlavního zase
+      </text>
+      <text type="normalized">
+         ještě k vám mám prosbu do děčína z hlavního zase
+      </text>
+      <ne_typed_text>
+         ještě k vám mám prosbu do [station]děčína[/station] z hlavního zase
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="DEPARTURE(TO(STATION), FROM(STATION))" speech_act="request_info">
+         ještě k vám mám prosbu do [station]děčína[/station] z hlavního zase
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="11" speaker="operator">
+    <utterance length="3.356" speaker="operator">
+      <text type="transcription">
+        do děčína{st} z hlavního | a to bude zase kdy
+      </text>
+      <text type="normalized">
+        do děčína z hlavního a to bude zase kdy
+      </text>
+      <ne_typed_text>
+        do [station]děčína[/station] z hlavního a to bude zase kdy
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="TO(STATION), FROM(STATION)" speech_act="implicit_confirmation">
+        do [station]děčína[/station] z hlavního
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="TIME" speech_act="request_info">
+        a to bude zase kdy
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="12" speaker="user">
+    <utterance length="4.230" speaker="user">
+      <text type="transcription">
+        'lb' taky tak ňák by to bylo taky *tu to pondělí
+      </text>
+      <text type="normalized">
+        taky tak ňák by to bylo taky *tu to pondělí
+      </text>
+      <ne_typed_text>
+        taky tak ňák by to bylo taky *tu to pondělí
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME" speech_act="present_info">
+        taky tak ňák by to bylo taky *tu to pondělí
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="13" speaker="operator">
+    <utterance length="2.723" speaker="operator">
+      <text type="transcription">
+        a to chcete vodpoledne nebo
+      </text>
+      <text type="normalized">
+        a to chcete vodpoledne nebo
+      </text>
+      <ne_typed_text>
+        a to chcete vodpoledne nebo
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TIME)" speech_act="request_info">
+        a to chcete vodpoledne nebo
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="14" speaker="user">
+    <utterance length="1.667" speaker="user">
+      <text type="transcription">
+        taky ňák takhle ráno
+      </text>
+      <text type="normalized">
+        taky ňák takhle ráno
+      </text>
+      <ne_typed_text>
+        taky ňák takhle ráno
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME" speech_act="present_info">
+        taky ňák takhle ráno
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="15" speaker="operator">
+    <utterance length="4.991" speaker="operator">
+      <text type="transcription">
+        no taky takhle nějak takže to vás ve(z)mu přes prahu{st}
+      </text>
+      <text type="normalized">
+        no taky takhle nějak takže to vás vezmu přes prahu
+      </text>
+      <ne_typed_text>
+        no taky takhle nějak takže to vás vezmu přes [station]prahu[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="THROUGH(STATION)" speech_act="present_info">
+        no taky takhle nějak takže to vás vezmu přes [station]prahu[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="16" speaker="user">
+    <utterance length="5.584" speaker="user">
+      <text type="transcription">
+        a je je je je | *není já když jsem jela posledně tak to bylo ňák přes ten chomutov{st}
+      </text>
+      <text type="normalized">
+        a je je je je *není já když jsem jela posledně tak to bylo ňák přes ten chomutov
+      </text>
+      <ne_typed_text>
+        a je je je je *není já když jsem jela posledně tak to bylo ňák přes ten [station]chomutov[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="" speech_act="speech_repair">
+        a je je je je *není
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="TRAIN(TIME, THROUGH(STATION))" speech_act="present_info">
+        já když jsem jela posledně tak to bylo ňák přes ten [station]chomutov[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="17" speaker="operator">
+    <utterance length="4.010" speaker="operator">
+      <text type="transcription">
+        přes chomutov{st} máte přímej paní až v šestnáct čtyřicet šest
+      </text>
+      <text type="normalized">
+        přes chomutov máte přímej paní až v šestnáct čtyřicet šest
+      </text>
+      <ne_typed_text>
+        přes [station]chomutov[/station] máte přímej paní až v šestnáct čtyřicet šest
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TROUGH(STATION), TYPE, TIME" speech_act="present_info">
+        přes [station]chomutov[/station] máte přímej paní až v šestnáct čtyřicet šest
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="18" speaker="user">
+    <utterance length="1.326" speaker="user">
+      <text type="transcription">
+        to jezdí každej den
+      </text>
+      <text type="normalized">
+        to jezdí každej den
+      </text>
+      <ne_typed_text>
+        to jezdí každej den
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TIME)" speech_act="request_info">
+        to jezdí každej den
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="19" speaker="operator">
+    <utterance length="1.650" speaker="operator">
+      <text type="transcription">
+        ano bez vyjímky
+      </text>
+      <text type="normalized">
+        ano bez vyjímky
+      </text>
+      <ne_typed_text>
+        ano bez vyjímky
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT" speech_act="present_info">
+        ano bez vyjímky
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="20" speaker="user">
+    <utterance length="1.584" speaker="user">
+      <text type="transcription">
+        a ten je v děčíně{st} v kolik
+      </text>
+      <text type="normalized">
+        a ten je v děčíně v kolik
+      </text>
+      <ne_typed_text>
+        a ten je v [station]děčíně[/station] v kolik
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="ARRIVAL(TO(STATION))" speech_act="request_info">
+        a ten je v [station]děčíně[/station] v kolik
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="21" speaker="operator">
+    <utterance length="5.650" speaker="operator">
+      <text type="transcription">
+        'lb' tak a s tím jste v děčíně{st} v děčíně{st} dvacet jedna čtrnáct
+      </text>
+      <text type="normalized">
+         tak a s tím jste v děčíně v děčíně dvacet jedna čtrnáct
+      </text>
+      <ne_typed_text>
+         tak a s tím jste v [station]děčíně[/station] v [station]děčíně[/station] dvacet jedna čtrnáct
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TO(STATION), TO(STATION), TIME" speech_act="present_info">
+         tak a s tím jste v [station]děčíně[/station] v [station]děčíně[/station] dvacet jedna čtrnáct
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="22" speaker="user">
+    <utterance length="2.432" speaker="user">
+      <text type="transcription">
+        jo tak to už je dlouho
+      </text>
+      <text type="normalized">
+        jo tak to už je dlouho
+      </text>
+      <ne_typed_text>
+        jo tak to už je dlouho
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="REJECT(TIME)" speech_act="acknowledgement">
+        jo tak to už je dlouho
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="23" speaker="operator">
+    <utterance length="0.867" speaker="operator">
+      <text type="transcription">
+        to už je dlou(ho)~
+      </text>
+      <text type="normalized">
+        to už je dlouho
+      </text>
+      <ne_typed_text>
+        to už je dlouho
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="REJECT(TIME)" speech_act="acknowledgement">
+        to už je dlouho
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="24" speaker="user">
+    <utterance length="1.728" speaker="user">
+      <text type="transcription">
+        já bych jela s malým děckem
+      </text>
+      <text type="normalized">
+        já bych jela s malým děckem
+      </text>
+      <ne_typed_text>
+        já bych jela s malým děckem
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TRAIN_TYPE)" speech_act="request_info">
+        já bych jela s malým děckem
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="25" speaker="operator">
+    <utterance length="10.297" speaker="operator">
+      <text type="transcription">
+        no tak to ne | a pokud byste chtěla s přestupem v chomutově{st} 'ps' tak ten pojede jenom v pondělí paní | ale když jedete s dítětem *vám tam jsou jenom tři minuty na přestup
+      </text>
+      <text type="normalized">
+        no tak to ne a pokud byste chtěla s přestupem v chomutově tak ten pojede jenom v pondělí paní ale když jedete s dítětem *vám tam jsou jenom tři minuty na přestup
+      </text>
+      <ne_typed_text>
+        no tak to ne a pokud byste chtěla s přestupem v [station]chomutově[/station] tak ten pojede jenom v pondělí paní ale když jedete s dítětem *vám tam jsou jenom tři minuty na přestup
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="REJECT" speech_act="acknowledgement">
+        no tak to ne
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="TRAIN(TRAIN_TYPE, THROUGH(SATION), TIME)" speech_act="present_info">
+        a pokud byste chtěla s přestupem v [station]chomutově[/station] tak ten pojede jenom v pondělí paní
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="TRAIN(TRAIN_TYPE, TIME)" speech_act="present_info">
+        ale když jedete s dítětem *vám tam jsou jenom tři minuty na přestup
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="26" speaker="user">
+    <utterance length="2.530" speaker="user">
+      <text type="transcription">
+        takže ten šestnáct čtyřicet šest ten je přímej
+      </text>
+      <text type="normalized">
+        takže ten šestnáct čtyřicet šest ten je přímej
+      </text>
+      <ne_typed_text>
+        takže ten šestnáct čtyřicet šest ten je přímej
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="VERIFY(TIME, TRAIN_TYPE)" speech_act="explicit_confirmation">
+        takže ten šestnáct čtyřicet šest ten je přímej
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="27" speaker="operator">
+    <utterance length="0.660" speaker="operator">
+      <text type="transcription">
+        ano
+      </text>
+      <text type="normalized">
+        ano
+      </text>
+      <ne_typed_text>
+        ano
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT" speech_act="acknowledgement">
+        ano
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="28" speaker="user">
+    <utterance length="1.211" speaker="user">
+      <text type="transcription">
+        přímej rychlík | každej den
+      </text>
+      <text type="normalized">
+        přímej rychlík každej den
+      </text>
+      <ne_typed_text>
+        přímej rychlík každej den
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TRAIN_TYPE, TIME" speech_act="explicit_confirmation">
+        přímej rychlík každej den
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="29" speaker="operator">
+    <utterance length="1.211" speaker="operator">
+      <text type="transcription">
+        a ten jezdí každej den | bez vyjímky ano
+      </text>
+      <text type="normalized">
+        a ten jezdí každej den bez vyjímky ano
+      </text>
+      <ne_typed_text>
+        a ten jezdí každej den bez vyjímky ano
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME" speech_act="present_info">
+        a ten jezdí každej den bez vyjímky
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT" speech_act="acknowledgement">
+        ano
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="30" speaker="user">
+    <utterance length="6.106" speaker="user">
+      <text type="transcription">
+        'lb' a ten *s 'hs' ten do tý prahy{st} 'ps' teda přes tu prahu{st}
+      </text>
+      <text type="normalized">
+        a ten *s ten do tý prahy teda přes tu prahu
+      </text>
+      <ne_typed_text>
+        a ten *s ten do tý [station]prahy[/station] teda přes tu [station]prahu[/station]
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="31" speaker="operator">
+    <utterance length="3.743" speaker="operator">
+      <text type="transcription">
+        tak a teď mi paní řekněte dělá vám praha{on} problém
+      </text>
+      <text type="normalized">
+        tak a teď mi paní řekněte dělá vám praha problém
+      </text>
+      <ne_typed_text>
+        tak a teď mi paní řekněte dělá vám [area]praha[/area] problém
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="32" speaker="user">
+    <utterance length="4.584" speaker="user">
+      <text type="transcription">
+        'ps' docela jo pr(oto)že už jsem tam hodně dlouho ne(byla)~
+      </text>
+      <text type="normalized">
+         docela jo protože už jsem tam hodně dlouho nebyla
+      </text>
+      <ne_typed_text>
+         docela jo protože už jsem tam hodně dlouho nebyla
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="33" speaker="operator">
+    <utterance length="6.370" speaker="operator">
+      <text type="transcription">
+        já se chci s váma jenom domluvit jes(tl)i nebude pro vás problém přejít na masaryčku na bývalý střed
+      </text>
+      <text type="normalized">
+        já se chci s váma jenom domluvit jestli nebude pro vás problém přejít na masaryčku na bývalý střed
+      </text>
+      <ne_typed_text>
+        já se chci s váma jenom domluvit jestli nebude pro vás problém přejít na masaryčku na bývalý střed
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="34" speaker="user">
+    <utterance length="6.410" speaker="user">
+      <text type="transcription">
+        'lb' no já už jsem tak jednou taky cestovala jo ale 'hs' to je mys(l)ím tam se ňák projde tím par(kem)~
+      </text>
+      <text type="normalized">
+         no já už jsem tak jednou taky cestovala jo ale to je myslím tam se ňák projde tím parkem
+      </text>
+      <ne_typed_text>
+         no já už jsem tak jednou taky cestovala jo ale to je myslím tam se ňák projde tím parkem
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="35" speaker="operator">
+    <utterance length="2.019" speaker="operator">
+      <text type="transcription">
+        ano ano ano ano
+      </text>
+      <text type="normalized">
+        ano ano ano ano
+      </text>
+      <ne_typed_text>
+        ano ano ano ano
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="ACCEPT" speech_act="acknowledgement">
+        ano ano ano ano
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="36" speaker="user">
+    <utterance length="3.745" speaker="user">
+      <text type="transcription">
+        já jsem jela obráceně já jsem jela tehdy z děčína{st} jako na prahu{st}
+      </text>
+      <text type="normalized">
+        já jsem jela obráceně já jsem jela tehdy z děčína jako na prahu
+      </text>
+      <ne_typed_text>
+        já jsem jela obráceně já jsem jela tehdy z [station]děčína[/station] jako na [station]prahu[/station]
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="37" speaker="operator">
+    <utterance length="5.500" speaker="operator">
+      <text type="transcription">
+        tam jste za deset minut to není co řešit | jo a máte na to skoro čtyrycet minut
+      </text>
+      <text type="normalized">
+        tam jste za deset minut to není co řešit jo a máte na to skoro čtyrycet minut
+      </text>
+      <ne_typed_text>
+        tam jste za deset minut to není co řešit jo a máte na to skoro čtyrycet minut
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="38" speaker="user">
+    <utterance length="1.361" speaker="user">
+      <text type="transcription">
+        'mh' tak já si to na(píšu)
+      </text>
+      <text type="normalized">
+         tak já si to napíšu
+      </text>
+      <ne_typed_text>
+         tak já si to napíšu
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="39" speaker="operator">
+    <utterance length="24.664" speaker="operator">
+      <text type="transcription">
+        tak poslouchejte paní | vyjedete rychlíkem ve čtrnáct deset | 'mh' ano | 'lb' 'ps' v šestnáct nula nula jste v praze{st} na hlavním nádraží | 'mh' 'ps' 'lb' a přejdete na tu masaryčku | a v šestnáct třicet osum 'lb' vám jede rychlík do děčína{st} | 'mh' a jste tam osumnáct čtyřicet pět
+      </text>
+      <text type="normalized">
+        tak poslouchejte paní vyjedete rychlíkem ve čtrnáct deset ano v šestnáct nula nula jste v praze na hlavním nádraží a přejdete na tu masaryčku a v šestnáct třicet osum vám jede rychlík do děčína a jste tam osumnáct čtyřicet pět
+      </text>
+      <ne_typed_text>
+        tak poslouchejte paní vyjedete rychlíkem ve čtrnáct deset ano v šestnáct nula nula jste v [station]praze[/station] na hlavním nádraží a přejdete na tu masaryčku a v šestnáct třicet osum vám jede rychlík do [station]děčína[/station] a jste tam osumnáct čtyřicet pět
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="40" speaker="user">
+    <utterance length="6.395" speaker="user">
+      <text type="transcription">
+        osumnáct čtyřicet pět | 'ps' 'lb' tak jo | a to jezdí taky jako toho prvního nebo každej den
+      </text>
+      <text type="normalized">
+        osumnáct čtyřicet pět tak jo a to jezdí taky jako toho prvního nebo každej den
+      </text>
+      <ne_typed_text>
+        osumnáct čtyřicet pět tak jo a to jezdí taky jako toho prvního nebo každej den
+      </ne_typed_text>
+    </utterance>
+  </turn>
+  <turn number="41" speaker="operator">
+    <utterance length="3.316" speaker="operator">
+      <text type="transcription">
+        každý den každý den paní | 'hm'
+      </text>
+      <text type="normalized">
+        každý den každý den paní 
+      </text>
+      <ne_typed_text>
+        každý den každý den paní 
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="TIME" speech_act="present_info">
+        každý den každý den paní 
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="42" speaker="user">
+    <utterance length="1.992" speaker="user">
+      <text type="transcription">
+        dobře tak jo | děkuju moc
+      </text>
+      <text type="normalized">
+        dobře tak jo děkuju moc
+      </text>
+      <ne_typed_text>
+        dobře tak jo děkuju moc
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT" speech_act="acknowledgement">
+        dobře tak jo
+      </dialogue_act>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="thanking">
+        děkuju moc
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="43" speaker="operator">
+    <utterance length="0.953" speaker="operator">
+      <text type="transcription">
+        nemáte zač
+      </text>
+      <text type="normalized">
+        nemáte zač
+      </text>
+      <ne_typed_text>
+        nemáte zač
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="thanking">
+        nemáte zač
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="44" speaker="user">
+    <utterance length="0.958" speaker="user">
+      <text type="transcription">
+        nashledanou
+      </text>
+      <text type="normalized">
+        nashledanou
+      </text>
+      <ne_typed_text>
+        nashledanou
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="closing">
+        nashledanou
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="45" speaker="operator">
+    <utterance length="0.958" speaker="operator">
+      <text type="transcription">
+        nashledanou
+      </text>
+      <text type="normalized">
+        nashledanou
+      </text>
+      <ne_typed_text>
+        nashledanou
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="closing">
+        nashledanou
+      </dialogue_act>
+    </utterance>
+  </turn>
+</task>

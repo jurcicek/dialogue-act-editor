@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Session SYSTEM "Session-3.7.dtd">
+<!-- eric3 session file for project dae -->
+<!-- This file was generated automatically, do not edit. -->
+<!-- Saved: 2005-10-31, 14:18:25 -->
+<Session version="3.7">
+  <Filenames>
+    <Filename cline="84" cindex="0">/home/filip/cvs-skola/DIALOGUE/annotation/dae.py</Filename>
+    <Filename cline="127" cindex="0">/home/filip/cvs-skola/DIALOGUE/annotation/SmntcTextCtrl.py</Filename>
+    <Filename cline="85" cindex="8">/home/filip/cvs-skola/DIALOGUE/annotation/DAEHtmlListBox.py</Filename>
+    <Filename cline="72" cindex="0">/home/filip/cvs-skola/DIALOGUE/annotation/SingleDAEditDialog.py</Filename>
+    <Filename cline="419" cindex="12">/home/filip/cvs-skola/DIALOGUE/annotation/editor_model.py</Filename>
+    <Filename cline="223" cindex="62">/home/filip/cvs-skola/DIALOGUE/annotation/edit.py</Filename>
+    <Filename cline="43" cindex="64">/home/filip/cvs-skola/DIALOGUE/annotation/ConfigDialog.py</Filename>
+  </Filenames>
+  <ActiveWindow cline="223" cindex="62">/home/filip/cvs-skola/DIALOGUE/annotation/edit.py</ActiveWindow>
+  <Breakpoints>
+  </Breakpoints>
+  <Watchpoints>
+  </Watchpoints>
+  <DebugInfo>
+    <CommandLine></CommandLine>
+    <WorkingDirectory></WorkingDirectory>
+    <Environment></Environment>
+    <ReportExceptions value="1" />
+    <Exceptions>
+    </Exceptions>
+    <TracePython value="0" />
+    <CovexcPattern></CovexcPattern>
+  </DebugInfo>
+  <Bookmarks>
+  </Bookmarks>
+</Session>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-3.7.dtd">
+<!-- Project file for project dae -->
+<!-- Saved: 2005-09-15, 15:47:09 -->
+<!-- Copyright (C) 2005 ,  -->
+<Project version="3.7">
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <UIType>Qt</UIType>
+  <Description></Description>
+  <Version>0.2</Version>
+  <Author></Author>
+  <Email></Email>
+  <Sources>
+    <Source>
+      <Name>1.split_dialogues.py</Name>
+    </Source>
+    <Source>
+      <Name>editor_model.py</Name>
+    </Source>
+    <Source>
+      <Name>dialogs.py</Name>
+    </Source>
+    <Source>
+      <Name>edit.py</Name>
+    </Source>
+    <Source>
+      <Name>DAEditDialog.py</Name>
+    </Source>
+    <Source>
+      <Name>SingleDAEditDialog.py</Name>
+    </Source>
+    <Source>
+      <Name>dae.py</Name>
+    </Source>
+    <Source>
+      <Name>semantics.py</Name>
+    </Source>
+    <Source>
+      <Name>DAEHtmlListBox.py</Name>
+    </Source>
+    <Source>
+      <Name>TranslateDialog.py</Name>
+    </Source>
+    <Source>
+      <Name>TriListCtrl.py</Name>
+    </Source>
+    <Source>
+      <Name>PromtingChoice.py</Name>
+    </Source>
+    <Source>
+      <Name>DescribeDialog.py</Name>
+    </Source>
+    <Source>
+      <Name>ScrolledMessageEditDialog.py</Name>
+    </Source>
+    <Source>
+      <Name>SmntcTextCtrl.py</Name>
+    </Source>
+    <Source>
+      <Name>setup.py</Name>
+    </Source>
+    <Source>
+      <Name>ConfigDialog.py</Name>
+    </Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>
+    <Name>dae.py</Name>
+  </MainScript>
+  <Vcs>
+    <VcsType>CVS</VcsType>
+    <VcsOptions>{'status': ['-v'], 'log': [''], 'global': ['-f'], 'update': ['-dP'], 'remove': ['-f'], 'add': [''], 'tag': ['-c'], 'export': [''], 'diff': ['-u3', '-p'], 'commit': [''], 'checkout': [''], 'history': ['-e', '-a']}</VcsOptions>
+    <VcsOtherData>{}</VcsOtherData>
+  </Vcs>
+</Project>

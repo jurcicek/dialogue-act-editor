@@ -1,0 +1,229 @@
+﻿<?xml version="1.0"  encoding="UTF-8" ?>
+<task comment="" day="27" description="" dialect="native" dialog="CD03~Part1~04-000427-074450-1" gender="female" hour="07" last-change="Thu May 22 16:14:19 2008" min="44" modified-by="Filip Jurcicek" month="04" pin="" processing-state="approved" quality="2" saved-by="Dialog Act Editor 1.5" specification="special" system="hhdis-nádraží" transcription_level="?" volume="2" year="2000">
+  <turn number="1" speaker="operator">
+    <utterance length="1.690" speaker="operator">
+      <text type="transcription">
+        'ps' informace prosím
+      </text>
+      <text type="normalized">
+         informace prosím
+      </text>
+      <ne_typed_text>
+         informace prosím
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="GREETING" speech_act="opening">
+        informace prosím
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="2" speaker="user">
+    <utterance length="7.783" speaker="user">
+      <text type="transcription">
+        dobrý den já mám prosbu jakpa(k) jedou dneska *vl osobní vlaky ňák dopoledne 'lb' do starýho_plzence{st}
+      </text>
+      <text type="normalized">
+        dobrý den já mám prosbu jakpak jedou dneska *vl osobní vlaky ňák dopoledne do starýho_plzence
+      </text>
+      <ne_typed_text>
+        dobrý den já mám prosbu jakpak jedou dneska *vl osobní vlaky ňák dopoledne do [station]starýho_plzence[/station]
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="GREETING" speech_act="opening" state5="3">
+        dobrý den
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="DEPARTURE(TIME, TRAIN_TYPE, TIME, TO(STATION))" speech_act="request_info" state5="3">
+        já mám prosbu jakpak jedou dneska *vl osobní vlaky ňák dopoledne do [station]starýho_plzence[/station]
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="3" speaker="operator">
+    <utterance length="8.806" speaker="operator">
+      <text type="transcription">
+        'lb' no tak tam už moc na výběr nemáte | teďka jede v osm šestnáct jes(tl)i stihnete | 'lb' potom až v jedenáct deset
+      </text>
+      <text type="normalized">
+         no tak tam už moc na výběr nemáte teďka jede v osm šestnáct jestli stihnete potom až v jedenáct deset
+      </text>
+      <ne_typed_text>
+         no tak tam už moc na výběr nemáte teďka jede v osm šestnáct jestli stihnete potom až v jedenáct deset
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="status_report">
+        no tak tam už moc na výběr nemáte 
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="TIME, TIME" speech_act="present_info">
+        teďka jede v osm šestnáct jestli stihnete potom až v jedenáct deset
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="4" speaker="user">
+    <utterance length="7.520" speaker="user">
+      <text type="transcription">
+        až v jedenáct deset | 'lb' a to by tak ňák stačilo tich jedenáct deset z hlavního jo | 'ps' 'lb' a dá se tam vzít kočárek
+      </text>
+      <text type="normalized">
+        až v jedenáct deset a to by tak ňák stačilo tich jedenáct deset z hlavního jo a dá se tam vzít kočárek
+      </text>
+      <ne_typed_text>
+        až v jedenáct deset a to by tak ňák stačilo tich jedenáct deset z hlavního jo a dá se tam vzít kočárek
+      </ne_typed_text>
+      <dialogue_act conversational_domain="communication" semantics="TIME" speech_act="implicit_confirmation" state5="3">
+        až v jedenáct deset
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT(TIME, FROM(STATION))" speech_act="acknowledgement" state5="3">
+        a to by tak ňák stačilo tich jedenáct deset z hlavního jo 
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TRAIN_TYPE)" speech_act="request_info" state5="3">
+        a dá se tam vzít kočárek
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="5" speaker="operator">
+    <utterance length="3.189" speaker="operator">
+      <text type="transcription">
+        samozřejmě paní | to víte že ano
+      </text>
+      <text type="normalized">
+        samozřejmě paní to víte že ano
+      </text>
+      <ne_typed_text>
+        samozřejmě paní to víte že ano
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT" speech_act="acknowledgement">
+        samozřejmě paní to víte že ano
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="6" speaker="user">
+    <utterance length="1.752" speaker="user">
+      <text type="transcription">
+        takže tam jsou ty nový vagóny
+      </text>
+      <text type="normalized">
+        takže tam jsou ty nový vagóny
+      </text>
+      <ne_typed_text>
+        takže tam jsou ty nový vagóny
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TRAIN_TYPE)" speech_act="request_info" state5="3">
+        takže tam jsou ty nový vagóny
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="7" speaker="operator">
+    <utterance length="2.199" speaker="operator">
+      <text type="transcription">
+        moment jak to myslíte jaký vagóny
+      </text>
+      <text type="normalized">
+        moment jak to myslíte jaký vagóny
+      </text>
+      <ne_typed_text>
+        moment jak to myslíte jaký vagóny
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="apology">
+        moment jak to myslíte jaký vagóny
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="8" speaker="user">
+    <utterance length="3.370" speaker="user">
+      <text type="transcription">
+        'hs' jako jestli ho musím vzít jako zavazadlo nebo jestli ho ve(z)mu
+      </text>
+      <text type="normalized">
+         jako jestli ho musím vzít jako zavazadlo nebo jestli ho vezmu
+      </text>
+      <ne_typed_text>
+         jako jestli ho musím vzít jako zavazadlo nebo jestli ho vezmu
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TRAIN_TYPE)" speech_act="request_info" state5="3">
+        jako jestli ho musím vzít jako zavazadlo 
+      </dialogue_act>
+      <dialogue_act conversational_domain="task" semantics="VERIFY(TRAIN_TYPE)" speech_act="request_info" state5="3">
+        nebo jestli ho vezmu pro matky s dětmi
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="9" speaker="operator">
+    <utterance length="2.080" speaker="operator">
+      <text type="transcription">
+        pro matky s dětmi pro matky s dětmi
+      </text>
+      <text type="normalized">
+        pro matky s dětmi pro matky s dětmi
+      </text>
+      <ne_typed_text>
+        pro matky s dětmi pro matky s dětmi
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT(TRAIN_TYPE)" speech_act="acknowledgement">
+        pro matky s dětmi
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="10" speaker="user">
+    <utterance length="2.676" speaker="user">
+      <text type="transcription">
+        jo dobře 'hm' tak jo | děkuju vám moc
+      </text>
+      <text type="normalized">
+        jo dobře tak jo děkuju vám moc
+      </text>
+      <ne_typed_text>
+        jo dobře tak jo děkuju vám moc
+      </ne_typed_text>
+      <dialogue_act conversational_domain="task" semantics="ACCEPT" speech_act="acknowledgement" state5="3">
+        jo dobře tak jo 
+      </dialogue_act>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="thanking" state5="3">
+        děkuju vám moc
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="11" speaker="operator">
+    <utterance length="1.111" speaker="operator">
+      <text type="transcription">
+        nemáte zač paní
+      </text>
+      <text type="normalized">
+        nemáte zač paní
+      </text>
+      <ne_typed_text>
+        nemáte zač paní
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="thanking">
+        nemáte zač paní
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="12" speaker="user">
+    <utterance length="1.077" speaker="user">
+      <text type="transcription">
+        nashle(da)nou
+      </text>
+      <text type="normalized">
+        nashledanou
+      </text>
+      <ne_typed_text>
+        nashledanou
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="closing" state5="3">
+        nashledanou
+      </dialogue_act>
+    </utterance>
+  </turn>
+  <turn number="13" speaker="operator">
+    <utterance length="1.077" speaker="operator">
+      <text type="transcription">
+        nashledanou
+      </text>
+      <text type="normalized">
+        nashledanou
+      </text>
+      <ne_typed_text>
+        nashledanou
+      </ne_typed_text>
+      <dialogue_act conversational_domain="frame" semantics="" speech_act="closing">
+        nashledanou
+      </dialogue_act>
+    </utterance>
+  </turn>
+</task>

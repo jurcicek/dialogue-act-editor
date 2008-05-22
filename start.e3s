@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Session SYSTEM "Session-3.6.dtd">
+<!-- eric3 session file for project start -->
+<!-- This file was generated automatically, do not edit. -->
+<!-- Saved: 2005-06-17, 22:47:59 -->
+<Session version="3.6">
+  <Filenames>
+    <Filename cline="4" cindex="0">/home/filip/cvs-skola/DIALOGUE/annotation/start.py</Filename>
+    <Filename cline="355" cindex="8">/home/filip/cvs-skola/DIALOGUE/annotation/edit.py</Filename>
+  </Filenames>
+  <ActiveWindow cline="355" cindex="8">/home/filip/cvs-skola/DIALOGUE/annotation/edit.py</ActiveWindow>
+  <Breakpoints>
+  </Breakpoints>
+  <DebugInfo>
+    <CommandLine></CommandLine>
+    <WorkingDirectory></WorkingDirectory>
+    <Environment></Environment>
+    <ReportExceptions value="1" />
+    <Exceptions>
+    </Exceptions>
+    <TracePython value="0" />
+    <CovexcPattern></CovexcPattern>
+  </DebugInfo>
+  <Bookmarks>
+  </Bookmarks>
+</Session>

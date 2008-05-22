@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<settings>
+    <annotator>Filip Jurcicek</annotator>
+    
+    <!--
+    <mode>da</mode> default    
+    
+    other choices:
+    text, text_da, translation, da_with_states
+    
+    translation is the one previously called "signed"    
+    -->
+    
+    <mode>da_with_states</mode>
+    
+    <!-- datadir 
+         =======
+        - path to directory where *.xml files are stored
+        - do not put / at the end of path
+        - use forward slashes instead of backslashes on windows platform
+    -->     
+    <!-- datadir>./data/udelat</datadir -->
+    <datadir>./data</datadir>
+
+    <processing-state>
+        <tag>unannotated</tag>
+        <tag>out-of-topic</tag>
+        <tag>partially-annotated</tag>
+        <tag>completely-annotated</tag>
+        <tag>approved</tag>
+    </processing-state>
+
+    <domain>
+        <tag>task</tag>
+        <tag>communication</tag>
+        <tag>frame</tag>
+    </domain>
+    <speech-act>
+        <tag>request_info</tag>
+        <tag>present_info</tag>
+        <tag>explicit_confirmation</tag>
+        <tag>implicit_confirmation</tag>
+        <tag>status_report</tag>
+        <tag>offer</tag>
+        <tag>acknowledgement</tag>
+        <tag>instruction</tag>
+        <tag>apology</tag>
+        <tag>opening</tag>
+        <tag>closing</tag>
+        <tag>thanking</tag>
+        <tag>speech_repair</tag>
+        <tag>verify</tag>
+        <tag>verify_neg</tag>
+    </speech-act>
+    
+    <translation>
+        <!-- 
+            - this section is oriented for WINDOWS, for sake of simplicity
+            - each line of vocab file has one vocabulary item             
+            - file has to be in WINDOWS-1250 encoding!
+            - editor command is executed by 
+                    os.system("cmd.exe /c "+cmd) 
+        -->
+        <vocabfile>signed-vocab.txt</vocabfile>
+        <editor_command>notepad.exe signed-vocab.txt</editor_command>
+    </translation>
+
+    <concept>
+        <tag>ARRIVAL</tag>
+        <tag>ACCEPT</tag>
+        <tag>AMOUNT</tag>
+        <tag>AREA</tag>
+        <tag>ARRIVAL_CONF</tag>
+        <tag>BACK</tag>
+        <tag>DEPARTURE</tag>
+        <tag>DEPARTURE_CONF</tag>
+        <tag>DISTANCE</tag>
+        <tag>DURATION</tag>
+        <tag>DELAY</tag>
+        <tag>DISCONNECT</tag>
+        <tag>FROM</tag>
+        <tag>GREETING</tag>
+        <tag>LENGTH</tag>
+        <tag>MAYBE</tag>
+        <tag>NEXT</tag>
+        <tag>NUMBER</tag>
+        <tag>OTHER_INFO</tag>
+        <tag>PERSON</tag>
+        <tag>PRICE</tag>
+        <tag>PREVIOUS</tag>
+        <tag>PLATFORM</tag>
+        <tag>REJECT</tag>
+        <tag>REPEAT</tag>
+        <tag>REF</tag>
+        <tag>STATION</tag>
+        <tag>SYSTEM_FEATURE</tag>
+        <tag>TO</tag>
+        <tag>TIME</tag>
+        <tag>TRAIN_TYPE</tag>
+        <tag>TRANSFER</tag>
+        <tag>THROUGH</tag>
+        <tag>WHAT_TIME</tag>
+        <tag>WAIT</tag>
+    </concept>
+</settings>
